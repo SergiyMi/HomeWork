@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i,900i|Ubuntu:300");
+
+html {
+  box-sizing: border-box;
+}
+
+8 *,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  padding-top: 26px;
+}
+/* ==menu== */
+.had {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 102px;
+}
+
+.had li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.had li a {
+  color: purple;
+  text-decoration: none;
+}
+
+.had li a:hover,
+.had li a:focus {
+  color: blue;
+}
+
+.had li:first-child {
+  margin-left: 0;
+}
+
+.had li:last-child {
+  margin-right: 0;
+}
+
+.li-right {
+  margin-right: 122px;
+  margin-left: 166px;
+}
+
+.li-center {
+  margin-right: 104px;
+}
+
+.li-left {
+  margin-left: 96px;
+}
+
+/* ==container-image== */
+
+.container-image {
+  width: 900px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.container-image img {
+  margin-bottom: 32px;
+}
+
+.container-image div {
+  display: inline-block;
+}
+
+.music-festival {
+  width: 420px;
+  margin-right: 60px;
+}
+
+.cap-coffee img {
+  width: 420px;
+  height: 278px;
+  margin-top: 0;
+}
+
+.text-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  margin-bottom: 32px;
+  background-blend-mode: #03a9f4;
+  font-weight: 100;
+}
+
+.text-caption {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  margin-top: 0;
+  color: rgb(98, 98, 98);
+  margin-bottom: 36px;
+  font-weight: 545;
+}
+
+.text-caption::first-letter {
+  text-transform: capitalize;
+}
+
+.text {
+  width: 420px;
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 130px;
+  text-align: left;
+}
+
+.text:nth-last-child(1) {
+  margin-bottom: 52px;
+}
+
+.button {
+  font-size: 0;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.load {
+  font-size: 20px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  border: 1px solid rgb(98, 98, 98);
+  width: 162px;
+  height: 58px;
+  margin: 0;
+  padding: 0;
+}
+
+.load::first-letter {
+  text-transform: capitalize;
+}
+
+.load:hover,
+.load:focus {
+  color: blue;
+}
